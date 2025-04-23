@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card.png</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        H1 {
+
+            padding: 20px;
+        }
+       span h2{
+            color:darkblue;
+            background-color: skyblue;
+            margin:18px;
+            padding: 11px;
+            
+        }
+   
+
+
+
+
+        .box {
+
+
+            border: 5px solid black;
+            ;
+
+            display: inline;
+            padding: 370px;
+            margin: 199px;
+            height: 300px;
+
+            width: -233px;
+            display: grid;
+
+
+
+
+            justify-content: center;
+        }
+
+        .box img {
+            margin: -350px;
+            padding: -300px;
+
+            justify-content: center;
+            border-radius: 30px;
+
+        }
+
+        nav1 {
+            border: 2px solid black;
+            margin: 36px;
+            padding: 10px;
+            height: 10px;
+            width: 100px;
+            border-radius: 10px;
+
+
+        }
+
+        nav2 {
+            border: 2px solid black;
+            margin: 36px;
+
+            padding: 10px;
+            height: 10px;
+            width: 100px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <H1>THIS IS MY FIRST USEFULL WEBSITE I BUILT!</H1>
+    <div class="box"><img height="500px" src="pic4.jpg" alt="MY WORLD">
+        <nav1>MY WORLD </nav1>
+        <nav2>BTS ARMY</nav2>
+<h1>ARMY WORLD</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quam et reiciendis illum voluptatibus est doloribus voluptatem labore sequi molestias laudantium, perferendis iste at excepturi porro nesciunt reprehenderit ratione deserunt soluta quisquam culpa, adipisci quia facilis voluptas! Deleniti, sunt eos.</p>
+<span><h2>Learn more</h2></span>
+
+
+
+</body>
+
+</html>
