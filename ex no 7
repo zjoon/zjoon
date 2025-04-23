@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .contanier {
+            border: 2px solid black;
+            grid-template-columns: 120px  100px;
+            display: grid;
+            justify-content: center;
+
+        }
+
+        .item {
+            border: 2px solid red;
+            height: 55px;
+            width: 55px;
+     
+            
+        }
+    </style>
+</head>
+
+<body>
+<div class="box">
+    <h1>Download UltraEdit <span>v2024.3 (released 2025-03-21) | Hotfix information</span> </h1>
+</div>
+    <div class="contanier">
+        <div class="item">  <a href="ue_italian_64.exe">download ue</a></div>
+        <div class="item">  <a href="ue_italian_64.exe">download ue</a></div>
+        <div class="item">  <a href="ue_italian_64.exe">download ue</a></div>
+        <div class="item">  <a href="ue_italian_64.exe">download ue</a></div>
+        <div class="item">  <a href="ue_italian_64.exe">download ue</a></div>
+        <div class="item">  <a href="ue_italian_64.exe">download ue</a></div>
+        <div class="item">  <a href="ue_italian_64.exe">download ue</a></div>
+        <div class="item">  <a href="ue_italian_64.exe">download ue</a></div>
+        <div class="item">  <a href="ue_italian_64.exe">download ue</a></div>
+        <div class="item">  <a href="ue_italian_64.exe">download ue</a></div>
+
+
+    </div>
+
+</body>
+
+</html>
