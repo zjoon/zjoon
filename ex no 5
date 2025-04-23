@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .class {
+            background-color: green;
+            height: 502px;
+            margin: 12px;
+
+        }
+
+        nav {
+            width: 1280px;
+            background-color: rgb(238, 126, 223);
+            margin: 0PX;
+            padding: 26PX;
+            height: 1PX;
+
+            position: fixed;
+
+
+        }
+
+        .zain {
+
+            background-color: rgb(255, 179, 192);
+            margin: 42px;
+            padding: 198px;
+            height: 12px;
+            width: 34px;
+        }
+
+        .moon {
+            background-color: rgb(75, 123, 224);
+            margin: 68px;
+            padding: 198px;
+            height: 12px;
+            width: 34px;
+
+            float: right;
+
+        }
+
+        .me {
+            margin: 68px;
+            padding: 118px;
+            height: 12px;
+            width: 921px;
+            background-color:gray;
+            border-radius: 55px;
+            text-transform: capitalize;
+            text-align: center;
+            border-color:blueviolet;
+            color: aliceblue;
+           
+        }
+
+    
+              body {
+            margin: 0;
+            /* Remove default margins */
+            min-height: 100vh;
+            /* Ensure the body covers the full viewport height */
+        }
+      
+       .navbar {
+            position: fixed;
+            /* Sticks the navbar to the bottom */
+            bottom: 0;
+            /* Aligns it to the bottom */
+            width: 100%;
+            /* Full width */
+            background-color: #333;
+            /* Background color */
+            display: flex;
+            /* Flexbox for layout */
+            justify-content: center;
+            /* Centers the single button */
+            padding: 10px 0;
+            /* Adds vertical padding */
+            color: white;
+            /* Text color */
+            z-index: 1000;
+            /* Ensures it stays above other elements */
+        }
+
+            
+        body {
+            margin: 0;
+            height: 100vh;
+            /* Ensure the body occupies the full viewport height */
+        }
+
+      
+
+        svg {
+            position: fixed;
+            /* Keeps the SVG in the same spot even when scrolling */
+            bottom: 110;
+            /* Aligns to the bottom */
+            right: 0;
+            /* Aligns to the right */
+            margin: 10px;
+            /* Optional: Adds space from the edges */
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <div class="class">
+            <NAV></NAV>
+            &nbsp;&nbsp;&nbsp
+            &nbsp;&nbsp;&nbsp
+            &nbsp;&nbsp;&nbsp
+            &nbsp;&nbsp;&nbsp
+            &nbsp;&nbsp;&nbsp
+            &nbsp;&nbsp;&nbsp
+            &nbsp;&nbsp;&nbsp
+            &nbsp;&nbsp;&nbsp
+            &nbsp;&nbsp;&nbsp
+            &nbsp;&nbsp;&nbsp
+            <div class="moon"></div>
+            <div class="zain"></div>
+            <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="50" cy="50" r="40" fill="orange" />
+            </svg>
+            <div class="me">
+                <H1>WELCOME TO THIS SIGMA WEB DEVELOPMENT EXPRESS</H1>
+            <div class="navbar"></div>
+
+
+
+            </div>
+
+    </header>
+
+
+
+</body>
+
+</html>
