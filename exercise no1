@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIDEOS_AND_AUDIOS_FOLDERS</title>
+</head>
+
+<body>
+    <h1>Videos and Audios</h1>
+    <header>
+        <main>MY FAVOURIT MUSIC VIDEOS</main>
+    </header>
+    <h1>These are my videos</h1>
+    <video src="video1.mp4" height="555" width="555" controls poster="pic1.jpg"></video>
+    <video src="video2.mp4" height="555" width="555" controls poster="pic3.jpg"></video>
+    <video src="video3.mp4" height="555" width="555" controls poster="pic4.jpg"></video>
+    <video src="video4.mp4" height="555" width="555" controls poster="pic2.jpg"></video>
+    <video src="video5.mp4" height="555" width="555" controls poster="pic5.jpg"></video>
+    <video src="video6.mp4" height="555" width="555" controls poster="pic6.jpg"></video>
+    <h1>These are my audios</h1>
+    <audio src="video1.mp4" controls></audio>
+    <audio src="video2.mp4" controls></audio>
+    <audio src="video3.mp4" controls></audio>
+    <audio src="video4.mp4" controls></audio>
+    <audio src="video5.mp4" controls></audio>
+    <audio src="video6.mp4" controls></audio>
+
+</body>
+
+</html>
