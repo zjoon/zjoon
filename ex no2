@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BACKGROUND_COLORS_AND_TEXT_COLORS</title>
+    <style>
+ p1 {
+            background-color: yellow;
+            color: red;
+            text-transform: capitalize;
+            text-indent: -1213px;
+        }
+
+      p {
+            background-color: blue;
+            color: aliceblue;
+            text-transform: capitalize;
+
+        }
+
+
+        h1 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>BACKGROUNG COLORS AND TEXT COLORS:</h1>
+    <div>
+        <p1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sunt!</p1>
+    
+
+    
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, et.</p>
+
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto,
+            veniam!</p>
+
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, hic.
+        </p>
+
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, beatae?
+        </p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <body>
+
+</html>
