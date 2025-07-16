@@ -1,0 +1,1167 @@
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+
+body {
+    background-color: black;
+
+
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+.back {
+
+    background-image: url("h.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+
+
+
+
+
+
+
+}
+
+
+
+.box {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    opacity: 0.8;
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 600px;
+    position: relative;
+    z-index: 3;
+    top: 17px;
+
+
+}
+
+
+button:hover {
+    background-color: rgb(193, 17, 25);
+
+}
+
+
+button {
+    background-color: rgb(229, 9, 20);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    width: 90px;
+    font-size: 14px;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    align-content: center;
+    position: relative;
+    align-items: center;
+    top: -2400px;
+
+
+
+}
+
+.content :nth-child(1) {
+    font-weight: 700;
+    line-height: 50px;
+    font-size: 2.5rem;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0.5rem;
+    margin-left: 20px;
+
+
+
+
+}
+
+.content :nth-child(2) {
+    font-weight: 700;
+    line-height: 50px;
+    font-size: 2.5rem;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0.5rem;
+    margin-left: 20px;
+}
+
+.content :nth-child(4) {
+
+    margin-bottom: 1rem;
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+
+    color: rgb(255, 255, 255);
+
+    font-size: 1rem;
+
+    line-height: 1.5;
+
+}
+
+.content :nth-child(6) {
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+
+    line-height: 1.5;
+
+}
+
+.content :nth-child(7) {
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+
+    line-height: 1.5;
+}
+
+
+
+
+.class input {
+    background-color: rgba(29, 28, 28);
+    opacity: 0.7;
+    padding: 20px 115px 20px 10px;
+    border: 1px solid white;
+    font-size: 16px;
+    border-radius: 6px;
+    color: white;
+
+
+
+}
+
+.class {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 3;
+    top: -2400px;
+
+
+
+}
+
+.class button {
+    padding: 0px 0px 16px 0px;
+    width: 180px;
+    font-size: 17px;
+    font-weight: bold;
+
+    border-radius: 6px;
+}
+
+
+
+.curve-section {
+
+    width: 200%;
+    left: -50%;
+    height: 5px;
+
+    z-index: 2;
+    position: relative;
+    margin-top: 580px;
+
+
+    border-radius: inherit;
+    background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
+
+
+}
+
+.hero {
+
+    width: 200%;
+    left: -5%;
+    border: solid .25rem transparent;
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    border-bottom: none;
+    background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+
+
+    border-radius: 5px;
+    width: 1050px;
+    height: 100px;
+    position: relative;
+
+
+
+
+
+
+
+}
+
+.trending span {
+
+    top: 33px;
+    font-size: 24px;
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: 700;
+    color: rgba(255, 255, 255);
+    position: relative;
+    padding-left: 56px;
+
+
+}
+
+.images {
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    padding-left: 30px;
+    cursor: pointer;
+
+
+}
+
+.images {
+    width: 300px;
+
+    border-radius: 10px;
+}
+
+.images img {
+    width: 100%;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+}
+
+.images img:hover {
+    transform: scale(1.1);
+    /* Zoom-in effect */
+}
+
+.images :nth-child(1) {
+    border-radius: 5px;
+}
+
+.images :nth-child(2) {
+    border-radius: 5px;
+}
+
+.images :nth-child(3) {
+    border-radius: 5px;
+}
+
+.images :nth-child(4) {
+    border-radius: 5px;
+}
+
+.images :nth-child(5) {
+    border-radius: 5px;
+}
+
+.images :nth-child(6) {
+    border-radius: 5px;
+}
+
+.images span {
+    font-weight: 700;
+    color: black;
+    position: relative;
+    z-index: 2;
+    border-color: white;
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
+    text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
+    top: 100px;
+    left: 15px;
+    font-size: 80px;
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+
+.scroll {
+    height: 130px;
+    width: 25px;
+    margin-top: -165px;
+    position: relative;
+    z-index: 2;
+
+    border-radius: 900px;
+    padding-right: 25px;
+    margin-left: 990px;
+    background-color: rgb(31, 30, 30);
+    cursor: pointer;
+
+
+}
+
+.scroll:hover {
+    background-color: rgb(51, 51, 51);
+}
+
+.scroll i {
+    color: white;
+    font-size: 30px;
+    position: relative;
+    top: 50px;
+    right: 2px;
+    z-index: 2;
+}
+
+.more span {
+    font-size: 24px;
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    z-index: 2;
+    top: 100px;
+    position: relative;
+    padding-left: 65px;
+}
+
+
+.more .box12 {
+    height: 200px;
+    width: 440px;
+    top: 115px;
+
+    border-radius: 15px;
+    position: relative;
+    z-index: 3;
+    background: linear-gradient(149deg, #192247 0%, #210e17 99.08%);
+
+
+
+
+
+}
+
+.more .box1 {
+    left: 65px;
+
+
+
+}
+
+.more .box2 {
+
+    left: 65px;
+
+
+
+
+}
+
+.more .box3 {
+    top: -320px;
+    left: 520px;
+
+
+}
+
+.more .box4 {
+    top: -320px;
+    left: 520px;
+
+
+
+
+}
+
+.size-6 {
+    fill: rgba(179, 7, 127, 0.123);
+
+    stroke: rgba(131, 3, 118, 0.863);
+    height: 80px;
+    top: 110px;
+    left: 345px;
+    position: relative;
+
+}
+
+.box3 .ri-download-cloud-line {
+
+
+
+    color: rgba(131, 3, 118, 0.863);
+    stroke-width: 0px;
+    left: 340px;
+    font-size: 80px;
+    display: block;
+    top: 39px;
+    position: relative;
+
+}
+
+.box2 .ri-projector-2-line {
+
+    border-radius: 10px;
+    position: relative;
+    z-index: 2;
+    font-size: 70px;
+    left: 317px;
+    top: 115px;
+    color: rgba(131, 3, 118, 0.863);
+
+
+}
+
+.box2 :nth-child(1) {
+    height: 30px;
+    top: 72px;
+    left: 325px;
+
+
+}
+
+.box4 .size-6 {
+    height: 70px;
+    left: 360px;
+    top: 120px;
+
+}
+
+.box1 span {
+    font-weight: 700;
+    font-size: 20px;
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    color: #FFFFFF;
+    position: relative;
+    top: -40px;
+    z-index: 2;
+    left: -125px;
+}
+
+.box1 p {
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    color: #FFFFFF;
+    position: relative;
+    top: -25px;
+    font-weight: 400;
+    font-size: 16px;
+    left: 25px;
+}
+
+.box3 span {
+    font-weight: 700;
+    font-size: 20px;
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    color: #FFFFFF;
+    position: relative;
+    top: 20px;
+    z-index: 2;
+    left: -39px;
+}
+
+.box3 p {
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    color: #FFFFFF;
+    position: relative;
+    top: 33px;
+    font-weight: 400;
+    font-size: 16px;
+    left: 25px;
+}
+
+.box2 span {
+    font-weight: 700;
+    font-size: 20px;
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    color: #FFFFFF;
+    position: relative;
+    top: -20px;
+    z-index: 2;
+    left: -147px;
+
+}
+
+.box2 p {
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    color: #FFFFFF;
+    position: relative;
+    top: -15px;
+    font-weight: 400;
+    font-size: 16px;
+    left: 25px;
+}
+
+.box4 span {
+    font-weight: 700;
+    font-size: 20px;
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    color: #FFFFFF;
+    position: relative;
+    top: -26px;
+    z-index: 2;
+    left: -112px;
+}
+
+.box4 p {
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    color: #FFFFFF;
+    position: relative;
+    top: -15px;
+    font-weight: 400;
+    font-size: 16px;
+    left: 25px;
+}
+
+.fqa {
+    top: -550px;
+    position: relative;
+}
+
+.fqa span {
+    font-size: 24px;
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: 700;
+    color: rgba(255, 255, 255);
+    top: 275px;
+    position: relative;
+    left: 65px;
+}
+
+.fqa .que1 {
+    height: 80px;
+    width: 893px;
+    background-color: rgb(45, 45, 45);
+    left: 65px;
+    position: relative;
+    top: 290px;
+    transition: all 1s cubic-bezier(0.32, 0.94, 0.6, 1);
+
+    cursor: pointer;
+}
+
+.fqa .que1:hover {
+    background-color: rgb(65, 65, 65);
+}
+
+.fqa .que1 p {
+    font-size: 24px;
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: 400;
+    color: rgba(255, 255, 255);
+    top: 23px;
+    position: relative;
+    z-index: 4;
+    left: 25px;
+}
+
+.que1 .ri-add-line {
+    font-size: 40px;
+    color: #FFFFFF;
+    left: 830px;
+    top: -10px;
+    position: relative;
+    z-index: 2;
+}
+
+.end2 {
+    top: 10px
+}
+
+.end2 input {
+    width: 455px;
+
+}
+
+.end {
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    position: relative;
+    top: -200px;
+}
+
+.footer {
+    display: flex;
+
+    left: -110px;
+    gap: 145px;
+    justify-content: center;
+    position: relative;
+
+    top: -407px;
+    line-height: 30px;
+}
+
+
+.footer a {
+    cursor: pointer;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 400;
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+
+}
+
+.footer2 {
+    display: flex;
+    gap: 144px;
+    position: relative;
+    top: 55px;
+}
+
+.button2 select {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(15, 15, 15);
+    position: relative;
+    top: -350px;
+    left: 50px;
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    border: 2px solid rgb(94, 93, 93);
+    width: 122px;
+    border-radius: 4px;
+    height: 30px;
+}
+
+.button2 .ri-translate-2 {
+    color: #FFFFFF;
+    position: relative;
+    top: -350px;
+    z-index: 2;
+    left: 80px;
+    font-size: 16px;
+
+}
+
+select {
+    appearance: none;
+}
+
+.button2 .ri-arrow-down-s-fill {
+    color: #FFFFFF;
+    position: relative;
+    top: -350px;
+    z-index: 2;
+    left: 15px;
+    font-size: 15px;
+}
+
+.last span {
+
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 400;
+    position: relative;
+    left: 70px;
+    top: -310px;
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+
+}
+
+.me p {
+    font-size: 13px;
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    left: 70px;
+    top: -270px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+    .box {
+        height: 11%;
+        width: 430px;
+        background-repeat: no-repeat;
+
+
+
+    }
+
+    .back {
+
+        height: 654%;
+        width: 430px;
+        overflow: hidden;
+
+
+    }
+
+
+    img {
+        height: 29px;
+
+        margin-top: -15px;
+
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        gap: 200px;
+
+    }
+
+    .content :nth-child(1) {
+
+        margin-left: 111px;
+        margin-right: 125px;
+        margin-top: -60px;
+        font-size: 32px;
+        line-height: 40px;
+
+
+
+
+
+    }
+
+    .content :nth-child(3) {
+        font-weight: 700;
+        line-height: 20px;
+        font-size: 32px;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 0.5rem;
+
+    }
+
+    .content :nth-child(2) {
+        display: none;
+    }
+
+    .class {
+        top: -1430px;
+        flex-direction: column;
+        position: relative;
+
+    }
+
+    .content :nth-child(5) {
+        margin-bottom: 1rem;
+        font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+        color: rgb(255, 255, 255);
+        font-size: 1rem;
+        line-height: 35px;
+        font-weight: 600;
+
+
+    }
+
+    .content :nth-child(4) {
+        display: none;
+    }
+
+    .content :nth-child(6) {
+        display: none;
+    }
+
+    .content :nth-child(7) {
+        display: none;
+    }
+
+    .content :nth-child(8) {
+        font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: 1.5;
+
+    }
+
+    .content :nth-child(9) {
+        font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: 1.5;
+
+    }
+
+    .class button {
+        position: relative;
+        top: -1032px;
+
+    }
+
+    .class input {
+        width: 366px;
+        top: -1032px;
+        position: relative;
+    }
+
+    .curve-section {
+        margin-top: 611px;
+    }
+
+    .images {
+        top: 18px;
+        position: relative;
+    }
+
+    .trending span {
+        font-size: 18px;
+        position: relative;
+        left: -44px;
+        font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+        font-weight: 500;
+    }
+
+    .images img {
+        height: 140px;
+        right: 45px;
+        position: relative;
+    }
+
+    .images span {
+        position: relative;
+        z-index: 3;
+        top: 40px;
+        left: -18px;
+        font-size: 64px;
+
+    }
+
+    .scroll {
+        height: 125px;
+        width: 25px;
+        position: relative;
+        z-index: 2;
+        border-radius: 900px;
+        margin: -86px;
+        top: -104px;
+        left: 489px;
+
+    }
+
+    .more span {
+
+        top: 546px;
+        left: -43px;
+        font-size: 18px;
+
+    }
+
+    .hero {
+        left: -275px;
+        position: relative;
+
+    }
+
+    .more .box12 {
+        top: 557px;
+        position: relative;
+        width: 380px;
+        left: 26px;
+    }
+
+    .box1 :nth-child(3) {
+        display: none;
+    }
+
+    .box1 span {
+        left: -116px;
+        top: -31px;
+        font-weight: 700;
+    }
+
+    .box1 :nth-child(4) {
+        top: -20px;
+    }
+
+    .box1 .size-6 {
+        height: 72px;
+        top: 122px;
+        left: 296px;
+        position: relative;
+    }
+
+    .box2 .ri-projector-2-line {
+        left: 264px;
+        font-size: 67px;
+    }
+
+    .box2 span {
+        left: -149px;
+        top: -18px;
+        font-weight: 700;
+    }
+
+    .box2 :nth-child(1) {
+        top: 72px;
+        position: relative;
+        left: 275px;
+    }
+
+    .box3 .ri-download-cloud-line {
+        left: 296px;
+        top: 28px;
+        position: relative;
+        font-size: 72px;
+
+
+    }
+
+    .content {
+        position: relative;
+        top: -2472px;
+    }
+
+    .box3 p {
+        position: relative;
+        top: 33px;
+        left: 27px;
+    }
+
+    .box3 span {
+        display: none;
+    }
+
+    .box3 :nth-child(2) {
+        display: block;
+        left: -38px;
+        top: 25px;
+        font-weight: 700;
+    }
+
+    .box4 .size-6 {
+        left: 304px;
+
+
+    }
+
+    .box4 span {
+        left: -116px;
+        top: -25px;
+        font-weight: 700;
+    }
+
+    .more {
+        display: none;
+    }
+
+    .replicate {
+        top: -1321px;
+        position: relative;
+        display: block;
+    }
+
+    .fqa {
+        top: 692px;
+        left: -40px;
+        position: relative;
+
+    }
+
+    .fqa .que1 {
+        width: 378px;
+    }
+
+    .fqa .que1 p {
+
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .que1 .ri-add-line {
+        font-size: 30px;
+        left: 325px;
+        position: relative;
+        top: -2px;
+    }
+
+    .end2 {
+        position: relative;
+        top: 2280px;
+    }
+
+
+    .end2 input {
+        position: relative;
+
+        width: 386px;
+    }
+
+    .end2 button {
+        left: -103px;
+        position: relative;
+    }
+
+    .sep {
+        position: relative;
+        top: 1229px
+    }
+
+    .sep1 {
+        display: none;
+    }
+
+    .sep :nth-child(2) {
+        left: -122px;
+        position: relative;
+    }
+
+    .fqa span {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .footer {
+
+        display: none;
+    }
+
+    .foot {
+        display: grid;
+        grid-template-columns: 1fr;
+        position: relative;
+        left: 31px;
+        top: -40px;
+    }
+
+    .button2 {
+        position: relative;
+        top: 365px;
+        left: -39px;
+    }
+
+    .last span {
+        position: relative;
+        top: 60px;
+        left: 32px;
+    }
+
+    .me2 p {
+
+        position: relative;
+        left: 32px;
+
+        font-size: 13px;
+        font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.5);
+        top: 100px;
+
+    }
+
+    .me {
+        display: none;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+@media (min-width: 1024px) {
+    .more2 {
+        display: none;
+    }
+
+    .content :nth-child(3) {
+        display: none;
+    }
+
+    .content :nth-child(5) {
+        display: none;
+    }
+
+    .content :nth-child(8) {
+        display: none;
+    }
+
+    .content :nth-child(9) {
+        display: none;
+    }
+
+    .back img {
+        width: 172px;
+    }
+
+    .box1 :nth-child(4) {
+        display: none;
+    }
+
+    .box3 :nth-child(2) {
+        display: none;
+    }
+
+    .replicate {
+        display: none;
+    }
+
+    .sep {
+        display: none;
+    }
+
+    .foot {
+        display: none;
+    }
+
+    .me2 {
+        display: none;
+    }
+
+
+
+
+}
