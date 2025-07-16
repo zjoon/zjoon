@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Pakistan - Watch TV Shows Online, Watch Movies Online</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+
+
+</head>
+
+<body>
+
+    <div class="back">
+        <nav><img src="Logonetflix.png" alt="">
+
+            <button>Sign in</button>
+        </nav>
+        <div class=" boxes box">
+
+
+
+
+        </div>
+
+
+        <div class="curve-section"></div>
+        <div class="hero"></div>
+        <div class="trending"> <span>Trending Now </span></div>
+
+        <div class="images">
+            <span>1</span>
+            <img src="21t.png" alt="1">
+            <span>2</span>
+            <img src="22t.png" alt="2">
+            <span>3</span>
+            <img src="23t.png" alt="3">
+            <span>4</span>
+            <img src="24t.png" alt="4">
+            <span>5</span>
+            <img src="25t.png" alt="5">
+        </div>
+        <div class="scroll"><i class="ri-arrow-right-s-line"></i></div>
+
+        <div class="  more"><span>More Reasons to Join</span>
+            <div class="box12 box1">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6">
+                    <path stroke-linecap="butt" stroke-linejoin="miter"
+                        d="M6 20.25h12m-7.5-3v3m3-3v3m-10.125-3h17.25c.621 0 1.125-.504 1.125-1.125V4.875c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125Z" />
+                </svg>
+
+                <span>Enjoy on your TV</span>
+                <p>
+                    Watch on Smart TVs, Playstation, Xbox,
+                    <br>
+                    Chromecast, Apple TV, Blu-ray players, and more.
+                </p>
+                <p>
+                    Watch on Smart TVs, Playstation, Xbox,
+                    <br>
+                    Chromecast, Apple TV, Blu-ray players, and<br> more.
+                </p>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="box12 box2">
+                <svg xmlns="http://www.w3.org/2000/svg" fill=" rgb(144, 28, 116)" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z" />
+                </svg>
+                <i class="ri-projector-2-line"></i>
+                <span>Watch everywhere</span>
+                <p>Stream unlimited movies and TV shows on your <br>phone, tablet, laptop, and TV.</p>
+
+
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="box12 box3">
+                <span>Download your shows to watch offline</span>
+                <span>Download your shows to watch <br> offline</span>
+                <p>Save your favorites easily and always have
+                    <br>something to watch.
+                </p>
+                <i class="ri-download-cloud-line"></i>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="box12 box4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M15.182 15.182a4.5 4.5 0 0 1-6.364 0M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Z" />
+                </svg>
+                <span>Create profiles for kids</span>
+                <p>Send kids on adventures with their favorite <br>characters in a space made just for them — free
+                    <br>with your membership.
+                </p>
+
+            </div>
+        </div>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="fqa">
+            <span>
+                Frequently Asked Questions </span>
+            <div class="que1">
+                <p>What is Netflix?</p> <i class="ri-add-line"></i>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="que1">
+                <p>How much does Netflix cost?</p><i class="ri-add-line"></i>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="que1">
+                <p>Where can I watch?</p><i class="ri-add-line"></i>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="que1">
+                <p>How do I cancel?</p><i class="ri-add-line"></i>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="que1">
+                <p>What can I watch on Netflix?</p><i class="ri-add-line"></i>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="que1">
+                <p>Is Netflix good for kids?</p><i class="ri-add-line"></i>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+        </div>
+        <div class="end">
+
+            <div class="sep1">
+                <span>Ready to watch? Enter your email to create or restart your </span>
+                <span>membership.</span>
+            </div>
+
+
+            <div class="sep">
+                <span>Ready to watch? Enter your email to create or restart</span>
+                <span><br>your membership.</span>
+            </div>
+
+
+
+
+
+
+            <div class="end2 class">
+                <input text="text" placeholder="Email adress">
+
+                <button><br> <span>Get started</span> <i class="ri-arrow-right-s-line"></i> </button>
+
+            </div>
+
+
+
+        </div>
+
+        <div class=" replicate  more">
+            <span>More Reasons to Join</span>
+            <div class="box12 box1">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6">
+                    <path stroke-linecap="butt" stroke-linejoin="miter"
+                        d="M6 20.25h12m-7.5-3v3m3-3v3m-10.125-3h17.25c.621 0 1.125-.504 1.125-1.125V4.875c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125Z" />
+                </svg>
+
+                <span>Enjoy on your TV</span>
+                <p>
+                    Watch on Smart TVs, Playstation, Xbox,
+                    <br>
+                    Chromecast, Apple TV, Blu-ray players, and more.
+                </p>
+                <p>
+                    Watch on Smart TVs, Playstation, Xbox,
+                    <br>
+                    Chromecast, Apple TV, Blu-ray players, and<br> more.
+                </p>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="box12 box3">
+                <span>Download your shows to watch offline</span>
+                <span>Download your shows to watch <br> offline</span>
+                <p>Save your favorites easily and always have
+                    <br>something to watch.
+                </p>
+                <i class="ri-download-cloud-line"></i>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <div class="box12 box2">
+                <svg xmlns="http://www.w3.org/2000/svg" fill=" rgb(144, 28, 116)" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z" />
+                </svg>
+                <i class="ri-projector-2-line"></i>
+                <span>Watch everywhere</span>
+                <p>Stream unlimited movies and TV shows on your <br>phone, tablet, laptop, and TV.</p>
+
+
+            </div>
+
+
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="box12 box4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M15.182 15.182a4.5 4.5 0 0 1-6.364 0M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Z" />
+                </svg>
+                <span>Create profiles for kids</span>
+                <p>Send kids on adventures with their favorite <br>characters in a space made just for them — free
+                    <br>with your membership.
+                </p>
+
+            </div>
+        </div>
+
+
+
+
+        <div class="content">
+            <span> Unlimited&nbsp;movies,TV </span>
+            <span> shows, and more</span>
+            <span> shows,&nbsp;and&nbsp;more</span>
+            <span>Starts at Rs 250. Cancel anytime.</span>
+            <span>Starts&nbsp;at&nbsp;Rs&nbsp;250.&nbsp;Cancel&nbsp;anytime.</span>
+            <span>Ready to watch? Enter your email to create or restart your </span>
+            <span>membership.</span>
+            <span> Ready&nbsp;to&nbsp;watch?&nbsp;Enter&nbsp;your&nbsp;email&nbsp;to&nbsp;create&nbsp;or </span>
+            <span> restart&nbsp;your&nbsp;membership.</span>
+
+
+        </div>
+        <div class="class">
+
+            <input text="text" placeholder="Email adress">
+
+            <button><br> <span>Get started</span> <i class="ri-arrow-right-s-line"></i> </button>
+        </div>
+
+        <div class="footer">
+            <ul>
+
+
+
+                <li><a href="https://help.netflix.com/en/contactus">Questions? Contact us.</a> </li>
+                <br>
+                <li><a href="https://help.netflix.com/en/node/412">FAQ</a> </li>
+                <li><a href="https://media.netflix.com/en/">Media Center</a> </li>
+                <li><a href="https://help.netflix.com/en/node/14361">Ways to Watch</a> </li>
+                <li><a href="https://www.netflix.com/pk/">Cookie Preferences</a> </li>
+                <li><a href="https://fast.com/">Speed Test</a> </li>
+
+            </ul>
+
+
+
+            <div class="footer2">
+                <ul>
+                    <li><a href="https://help.netflix.com/en">Help Center</a></li>
+                    <li><a href="https://ir.netflix.net/ir-overview/profile/default.aspx">Investor Relations</li>
+                    <li><a href="https://help.netflix.com/legal/termsofuse">Terms of Use</a> </li>
+                    <li><a href="https://help.netflix.com/en/node/134094">Corporate Information</a> </li>
+                    <li><a href="https://help.netflix.com/legal/notices">Legal Notices</a> </li>
+                </ul>
+
+
+
+                <ul>
+                    <li><a
+                            href="https://www.netflix.com/pk/login?nextpage=https%3A%2F%2Fwww.netflix.com%2Fyouraccount">Account</a>
+                    </li>
+                    <li><a href="https://jobs.netflix.com/">Jobs</a> </li>
+                    <li><a href="https://help.netflix.com/legal/privacy">Privacy</a> </li>
+                    <li><a href="https://help.netflix.com/en/contactus">Contact Us</a> </li>
+                    <li><a href="https://www.netflix.com/pk/browse/genre/839338">Only on Netflix</a> </li>
+                </ul>
+            </div>
+
+        </div>
+
+
+        <div class=" foot footer">
+            <ul>
+
+
+
+                <li><a href="https://help.netflix.com/en/contactus">Questions? Contact us.</a> </li>
+                <br>
+                <li><a href="https://help.netflix.com/en/node/412">FAQ</a> </li>
+                <li><a href="https://media.netflix.com/en/">Media Center</a> </li>
+                <li><a href="https://help.netflix.com/en/node/14361">Ways to Watch</a> </li>
+                <li><a href="https://www.netflix.com/pk/">Cookie Preferences</a> </li>
+                <li><a href="https://fast.com/">Speed Test</a> </li>
+                <li><a href="https://help.netflix.com/en">Help Center</a></li>
+                <li><a href="https://ir.netflix.net/ir-overview/profile/default.aspx">Investor Relations</li>
+                <li><a href="https://help.netflix.com/legal/termsofuse">Terms of Use</a> </li>
+                <li><a href="https://help.netflix.com/en/node/134094">Corporate Information</a> </li>
+                <li><a href="https://help.netflix.com/legal/notices">Legal Notices</a> </li>
+                <li><a
+                        href="https://www.netflix.com/pk/login?nextpage=https%3A%2F%2Fwww.netflix.com%2Fyouraccount">Account</a>
+                </li>
+                <li><a href="https://jobs.netflix.com/">Jobs</a> </li>
+                <li><a href="https://help.netflix.com/legal/privacy">Privacy</a> </li>
+                <li><a href="https://help.netflix.com/en/contactus">Contact Us</a> </li>
+                <li><a href="https://www.netflix.com/pk/browse/genre/839338">Only on Netflix</a> </li>
+            </ul>
+
+
+        </div>
+
+
+
+
+
+
+
+        <div class="button2">
+            <i class="ri-translate-2"></i>
+            <select>
+                <option> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;English</option>
+            </select>
+            <i class="ri-arrow-down-s-fill"></i>
+        </div>
+        <div class="last">
+            <span>Netflix Pakistan</span>
+        </div>
+        <div class="me">
+            <p>© 2025 All rights reserved. Zainab Web Solutions • Powered by HTML & CSS • 2025</p>
+        </div>
+        <div class="me2">
+            <p>© 2025 All rights reserved. Zainab Web Solutions </p>
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
